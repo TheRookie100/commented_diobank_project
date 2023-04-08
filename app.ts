@@ -81,7 +81,7 @@ console.log (peopleAccount.getName()) // Aqui estamos chamando o novo valor que 
 
 
 
-
+/*
 
 // Pai
 abstract class Apps { // DioAccount.ts
@@ -119,7 +119,7 @@ console.log (peopleAccount)
 
 
 
-
+*/
 
 
 
