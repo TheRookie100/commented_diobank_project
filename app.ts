@@ -1,4 +1,4 @@
-/*import { DioAccount } from './Class/DioAccount' // Como criamos uma "repositorio Class" precisamos usar esse comando para importa as informacoes de class que esta no "repositorio Class"
+import { DioAccount } from './Class/DioAccount' // Como criamos uma "repositorio Class" precisamos usar esse comando para importa as informacoes de class que esta no "repositorio Class"
 import { PeopleAccount } from './Class/PeopleAccount'
 // Optamos em dividir a classes   DioAccount, PeopleAccount , CompanyAccount cada classe vai ter seu proprio repositorio/arquvivo para facilitar a manuntecao
 import { CompanyAccount } from './Class/CompanyAccount'
@@ -7,9 +7,9 @@ import { CompanyAccount } from './Class/CompanyAccount'
 //   ↑
 //   ↑
 //   ↑← ← ← ← ← Operador para importar as informacoes de cada arquivo das classes
+import { EmployeeAccount } from './Class/EmployeeAccount'
 
-*/
-/*
+
 // Aqui simulamos caso a conta do cliente seja invalida, quer dizer vamos ter metodo depositar com uma validacao de status que foi criado com outra funcao.. A funcao deposit vai verificar na funcado validacao se a conta e verdadeira se foi verdadeira informa que valor foi depositado corretamente, caso ao contrario vai estorar o erro conta invalida
 //    Objetos
 //      ⬇
